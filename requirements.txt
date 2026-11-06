@@ -1,0 +1,28 @@
+# Core
+numpy
+pandas
+scipy
+scikit-learn
+torch
+matplotlib
+tqdm
+joblib
+
+# Bundled TabPFN / TabICL (src/)
+einops
+huggingface_hub
+pydantic
+pydantic-settings
+typing_extensions
+filelock
+packaging
+psutil
+networkx
+tabpfn-common-utils
+
+# Data generation (generate_data.py)
+dysts==0.96
+numba
+
+# Optional: CatBoost backbone (--model CatBoost)
+catboost==1.2.8
